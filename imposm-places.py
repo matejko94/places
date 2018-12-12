@@ -437,10 +437,7 @@ shops = Points(
 #   fields = address_tags,
 #   mappings = [transportation, education, entertainment, food_and_drink, leisure, public_services, medical, shops],
 # )
-<<<<<<< HEAD
-=======
 '''
-
 
 tourism = Points(
   name = 'tourism',
@@ -502,4 +499,3 @@ historic = Points(
     )
   }
 )
->>>>>>> 8d1ccca46b53a67e87449ea8a8ade37bb9e9cc7d
