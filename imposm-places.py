@@ -100,6 +100,7 @@ places = Points(
     ('population', Integer()),
   ),
 )
+'''
 
 buildings = Polygons(
   name = 'buildings',
@@ -110,6 +111,7 @@ buildings = Polygons(
     ),
   }
 )
+
 
 barrierpoints = Points(
   name = 'barrierpoints',
@@ -435,3 +437,66 @@ shops = Points(
 #   fields = address_tags,
 #   mappings = [transportation, education, entertainment, food_and_drink, leisure, public_services, medical, shops],
 # )
+'''
+
+
+tourism = Points(
+  name = 'tourism',
+  fields = address_tags,
+  mapping = {
+    'tourism': (
+      'alpine_hut',
+      'apartment',
+      'aquarium',
+      'artwork',
+      'attraction',
+      'camp_site',
+      'caravan_site',
+      'chalet',
+      'gallery',
+      'guest_house',
+      'hostel',
+      'hotel',
+      'information',
+      'motel',
+      'museum',
+      'picnic_site',
+      'theme_park',
+      'viewpoint',
+      'wilderness_hut',
+      'zoo'
+    )
+  }
+)
+
+historic = Points(
+  name = 'historic',
+  fields = address_tags,
+  mapping = {
+    'historic': (
+      'aircraft',
+      'aqueduct',
+      'archaeological_site',
+      'battlefield',
+      'boundary_stone',
+      'cannon',
+      'castle',
+      'castle_wall',
+      'church',
+      'city_gate',
+      'citywalls',
+      'farm',
+      'fort',
+      'gallows',
+      'locomotive',
+      'manor',
+      'memorial',
+      'monument',
+      'ruins',
+      'tomb',
+      'wayside_cross',
+      'wayside_shrine',
+      'wreck'
+    )
+  }
+)
