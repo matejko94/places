@@ -43,11 +43,11 @@ imposm.config.relation_builder = 'contains'
 # set_default_name_type(LocalizedName(['name:en', 'int_name', 'name']))
 
 db_conf = Options(
-  # db='osm',
+  db='imposm',
   host='localhost',
   port=5432,
-  user='osm',
-  password='osm',
+  user='postgres',
+  password='ZelenaSolata',
   sslmode='allow',
   prefix='osm_new_',
   proj='epsg:900913',
