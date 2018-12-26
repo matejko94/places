@@ -499,3 +499,18 @@ historic = Points(
     )
   }
 )
+
+
+natural = Points(
+  name = 'natural',
+  fields = address_tags,
+  mapping = {
+    'natural': (
+      'beach',
+      'peak'
+    ),
+    'waterway': (
+	'waterfall')
+  }
+)
+
